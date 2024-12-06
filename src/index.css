@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Permanent+Marker&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "JetBrains Mono";
+}
+
+.permanent-marker-regular {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-shadow-black {
+  text-shadow: 0px 14px 0px rgba(0.6, 0.6, 0.6, 1);
+}
+.text-shadow-black-small {
+  text-shadow: 0px 5px 0px rgba(0.6, 0.6, 0.6, 1);
+}
+.text-shadow-black-medium {
+  text-shadow: 0px 11px 0px rgba(0.6, 0.6, 0.6, 1);
+}
+
+.primary-color {
+  color: #b1d02b;
+}
+
+.font-outline-3 {
+  -webkit-text-stroke: 3px black;
+}
+.font-outline-1 {
+  -webkit-text-stroke: 1px black;
+}
+
+@media (max-width: 640px) {
+  a.active {
+    color: white;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
