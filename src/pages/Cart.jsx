@@ -3,7 +3,7 @@ import { ShopContext } from "../context/ShopContext";
 import SubTitle from "../components/SubTitle";
 import { ImBin } from "react-icons/im";
 import ProceedToCheckoutButton from "../components/ProceedToCheckoutButton";
-import CartTotal from "../components/CArtTotal";
+import CartTotal from "../components/CartTotal";
 import { Link } from "react-router-dom";
 import { IoArrowBack } from "react-icons/io5";
 
