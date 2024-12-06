@@ -1,4 +1,3 @@
-import CartTotal from "../components/CArtTotal";
 import SubTitle from "../components/SubTitle";
 import { FaPaypal } from "react-icons/fa";
 
@@ -7,6 +6,7 @@ import PlaceOrderButton from "../components/PlaceOrderButton";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { IoArrowBack } from "react-icons/io5";
+import CartTotal from "../components/CartTotal";
 
 const PlaceOrder = () => {
   const [method, setMethod] = useState("cod");

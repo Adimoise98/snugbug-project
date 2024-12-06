@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { ShopContext } from "../context/ShopContext";
 import { GoStarFill } from "react-icons/go";
 import { GoStar } from "react-icons/go";
-import AddToCartButton from "../components/AddToCartButton";
+
 import RelatedProducts from "../components/RelatedProducts";
 import { IoArrowBack } from "react-icons/io5";
 
@@ -96,7 +96,9 @@ const Product = () => {
               </div>
             </div>
             <div onClick={() => addToCart(productData._id, bgColor)}>
-              <AddToCartButton />
+              <button className="border border-black px-9 sm:px-8 py-3 sm:py-4 text-xl hover:bg-[#b1d02b] hover:text-white transition-all duration-500 shadow-md shadow-black text-black font-extrabold">
+                Add to Cart
+              </button>
             </div>
             <hr className="mt-8 sm:w-4/5 h-1 bg-lime-900" />
             <div className="text-lg sm:text-sm text-lime-950 mt-5 flex flex-col gap-4">
