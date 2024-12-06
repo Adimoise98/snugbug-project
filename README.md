@@ -1,8 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# SnuBug 🐞👕
 
-Currently, two official plugins are available:
+## Overview
+SnuBug is a frontend e-commerce application for selling unique hoodies, built using React and Tailwind CSS. This project focuses on creating an engaging and responsive user interface for browsing and selecting hoodies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Responsive design using Tailwind CSS
+- Modern React component architecture
+- Product catalog with detailed views
+- Shopping cart functionality
+- Mobile-friendly interface
+
+## 🛠 Tech Stack
+- **Frontend**: React
+- **Styling**: Tailwind CSS
+- **State Management**: React Hooks
+- **Routing**: React Router
+- **Deployment**: Netlify
+
+
+## 🎨 Designed with ❤️ by Adrian Moise.
+
+## 🔗 Contact
+- Project Link: https://snugbughoodies.netlify.app/
